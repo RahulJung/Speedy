@@ -1,0 +1,17 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 16px;
+  background-color: turquoise;
+}
+.bg-myColor {
+  background-color: crimson;
+}
+
+.content {
+  padding: 12px;
+  height: 3000px;
+}
+
+.coloring {
+  color: red;
+}
