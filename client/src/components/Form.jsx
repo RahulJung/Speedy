@@ -16,8 +16,11 @@ export default function Form() {
   const classes = useStyles();
 
   return (
-    <form className={classes.root} noValidate autoComplete="off">
-      <div>
+    <div className="form">
+      <div className="head">
+        <h3>Request Your FREE Website Speed Grade</h3>
+      </div>
+      <form className={classes.root} noValidate autoComplete="off">
         <TextField required id="standard-required" label="Full Name" />
         <TextField required id="standard-required" label="Phone" />
         <TextField id="standard-search" label="Company Name" type="search" />
@@ -26,7 +29,7 @@ export default function Form() {
         <Button variant="contained" color="secondary">
           Get My Report
         </Button>
-      </div>
-    </form>
+      </form>
+    </div>
   );
 }
