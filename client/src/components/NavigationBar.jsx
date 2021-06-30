@@ -7,16 +7,11 @@ import "../styles/styles.css";
 function NavigationBar() {
   return (
     <div className="App">
-      <Navbar
-        bg="dark"
-        variant="dark"
-        sticky="top"
-        expand="sm"
-        collapseOnSelect
-      >
+      <Navbar bg="dark" variant="dark" fixed="top" expand="sm" collapseOnSelect>
         {/* Add logo to the Navbar */}
         <Navbar.Brand>
-          <img src={logo} width="60px" height="60px" /> FEROCIOUS MEDIA
+          <img src={logo} width="60px" height="60px" />{" "}
+          <span className="logo">FEROCIOUS</span> MEDIA
         </Navbar.Brand>
 
         {/* Add toggle feature to the navbar when the window is minimized */}
