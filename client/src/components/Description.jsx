@@ -3,10 +3,10 @@ import WebReport from "./WebReport.jsx";
 
 function Description() {
   return (
-    <div>
+    <div className="intro">
       <h2>Free Website Speed Grader</h2>
       <h4>by Ferocious Media</h4>
-      <div>
+      <div className="introContent">
         <p>
           This Free Website Speed Test will grade your website on a scale of an
           ‘A’ (Very Fast) to an ‘F’ (Needs help). Along with the grade, comes
