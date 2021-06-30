@@ -1,6 +1,5 @@
 ## Speedy 
 http://ec2-3-19-64-240.us-east-2.compute.amazonaws.com:3000/
-Full Stack App to check your website performance
 
 ### About
 Speedy is a single page application that allows users to check the performance of their website. 
