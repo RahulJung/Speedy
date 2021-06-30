@@ -1,4 +1,7 @@
 import React from "react";
+import NavigationBar from "./NavigationBar.jsx";
+import laptop from "../../../laptop.png";
+import "../styles/styles.css";
 
 class App extends React.Component {
   constructor(props) {
@@ -6,7 +9,12 @@ class App extends React.Component {
   }
 
   render() {
-    return <div>Hello From React</div>;
+    return (
+      <div className="App">
+        <NavigationBar />
+        <div className="frontImg">Hello</div>
+      </div>
+    );
   }
 }
 
