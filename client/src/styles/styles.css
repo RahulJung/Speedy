@@ -1,8 +1,12 @@
 body {
-  font-family: Verdana, Geneva, sans-serif;
-  font-size: 16px;
-  background-color: turquoise;
+  line-height: 1.5em;
+  font-weight: 500;
+  margin: 0;
+  word-wrap: break-word;
+  word-break: break-word;
 }
+
+/* css for Navbar */
 .bg-myColor {
   background-color: crimson;
 }
@@ -12,6 +16,215 @@ body {
   height: 3000px;
 }
 
+.logo {
+  font-weight: bolder;
+}
+
 .coloring {
   color: red;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+/* CSS for landing page background */
+.frontImg {
+  margin-top: 50px;
+  background-image: url(/home/rahul/Desktop/Speedy/laptop.png);
+  position: relative;
+  min-width: 100%;
+  min-height: 900px;
+  background-size: cover;
+  background-position: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+
+.imgHolder {
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+  margin: 5% auto 0;
+  border-radius: 10px;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+/* CSS for Service Request Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  margin-top: 50px;
+  padding: 50px 70px;
+  height: 100%;
+  width: 500px;
+  border-radius: 25px;
+  box-shadow: 0 0 25px rgb(0 0 0 / 20%);
+}
+
+.head h3 {
+  display: block;
+  color: #6d479c;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+}
+
+h1 {
+  display: block;
+
+  font-family: "Poppins", sans-serif;
+  color: #343a40 !important;
+  font-size: 5.5vw;
+  margin: 0;
+  padding: 0;
+  line-height: 1.1em;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em;
+  color: #008e00;
+  font-weight: bolder;
+}
+
+h3 {
+  display: block;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1.3em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 44px;
+}
+
+h4 {
+  display: block;
+  font-family: "Poppins", sans-serif;
+  color: #6d479c;
+  font-weight: bolder;
+  line-height: 1.3em;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+}
+
+.intro {
+  height: 100vh;
+  width: 50vw;
+  margin: 5%;
+  text-align: left;
+}
+
+.introContent {
+  line-height: 1.5em;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  text-align: left;
+}
+
+.introContent p {
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+  font-weight: 500;
+}
+.message {
+  text-align: center;
+  margin: 15% 5% 5% 38%;
+}
+
+.swiper {
+  height: 400px;
+  width: 300px;
+  margin: auto;
+}
+
+/* Carousel CSS */
+.sliderBackground {
+  background: #6d479c;
+  background-image: radial-gradient(#ad3293, #6d479c);
+  color: white;
+}
+
+.slider {
+  position: relative;
+  /* height: 100vh; */
+  padding: 50px 100px;
+  margin: 1% auto 4%;
+  height: 100%;
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background-color: #633c92;
+  box-shadow: 0 0 25px rgb(0 0 0 / 20%);
+}
+
+.right-arrow {
+  position: absolute;
+  top: 40%;
+  right: 32px;
+  font-size: 3rem;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 40%;
+  left: 32px;
+  font-size: 3rem;
+  color: white;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
 }
