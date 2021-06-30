@@ -6,9 +6,9 @@ import report from "../../../report.jpg";
 class WebReport extends React.Component {
   render() {
     return (
-      <div>
+      <div className="imgHolder">
         <Pulse>
-          <img src={report} width="400px" height="400px" />
+          <img src={report} className="imgHolder" />
         </Pulse>
       </div>
     );
