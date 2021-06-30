@@ -18,13 +18,13 @@ Speedy is a single page application that allows users to check the performance o
 
 #### User stories
 
-*Users should be able to request for free website speed test
-*Users should be able to see previous performance report of their website
+* Users should be able to request for free website speed test
+* Users should be able to see previous performance report of their website
 
 ### Yet to Coome
 
-*As a user I want to be able to store my report/information into the database - (Perform CRUD operations)
-*As a user I want to talk to a chat bot regarding any concerns/issues
+* As a user I want to be able to store my report/information into the database - (Perform CRUD operations)
+* As a user I want to talk to a chat bot regarding any concerns/issues
 
 ### Get Started
 
